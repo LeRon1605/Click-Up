@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Axifoma-800;
+    src: url('../fonts/Axiforma-Bold.woff');
+}
+
+@font-face {
+    font-family: Axifoma-700;
+    src: url('../fonts/Axiforma-ExtraBold.woff');
+}
+
+@font-face {
+    font-family: Axifoma-500;
+    src: url('../fonts/Axiforma-SemiBold.woff');
+}
+
+@font-face {
+    font-family: Axifoma-400;
+    src: url('../fonts/Axiforma-Regular.woff');
+}
+
+@font-face {
+    font-family: GohamPro-400;
+    src: url('../fonts/GothaProReg.woff');
+}
+
+.vertical_center {
+    align-items: center;
+}
+
+.bg-blue {
+    background-color: #ECF9FD;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-red {
+    background-color: #FEF5F9;
+}
+
+.bg-red-dark {
+    background-color: #FD71AF;
+}
+
+.bg-blue-dark {
+    background-color: #4ACDF9;
+}
+
+.bg-violet {
+    background-color: #ded9ff;
+}
+
+.bg-green {
+    background-color: #F0FBF8;
+}
+
+.bg-violet-dark {
+    background-color: #F2F0FD;
+}
+
+.bg-green-dark {
+    background-color: #EAF8F2;
+}
+
+.bg-transparent {
+    background-color:  rgba(255, 255, 255, .1);
+}
+
+.text-yellow {
+    color: #f7ce51;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-red {
+    color: #ffb5d6;
+}
+
+.text-violet {
+    color: #7b68ee;
+}
+
+.text-blue {
+    color: #4ACDF9;
+}
+
+.text-green {
+    color: #00B884;
+}
+
+.border-top {
+    border-top: 1px solid rgba(185,190,199,.6);
+}
+
+.border-right {
+    border-right: 1px solid rgba(185,190,199,.6);
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(185,190,199,.6);
+}
+
+.fs-sm {
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    outline: none;
+}
+
+.btn__large {
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: Axifoma-800;
+}
+
+.d_none {
+    display: none !important;
+}
+
+.d_block {
+    display: block;
+}
+
+.p-top {
+    position: absolute;
+    top: 0;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeout {
+    animation: fadeout 1s;
+}
+
+.disabled {
+    opacity: 0.5;
+}
