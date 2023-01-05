@@ -1,7 +1,8 @@
 footer {
+    background-color: red;
     background-image: url('../images/bg-main-gradient.svg');
     background-repeat: no-repeat;
-    background-position: 50% 10px;
+    background-position: 50%;
     margin-top: 50px;
 }
 .footer__hero {
@@ -13,6 +14,7 @@ footer {
     box-shadow: 0 20.2778px 60.8333px rgb(16 30 54 / 10%);
     background-color: white;
     border-radius: 15px;
+    position: relative;
 }
 
 .footer__hero .icon {
@@ -29,17 +31,24 @@ footer {
     font-family: Axifoma-400;
 }
 
+.footer__hero button {
+    color: white;
+    background-color: #7C68EE;
+}
+
 .footer__bar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 30px;
     color: white;
 }
 
 .footer__bar_group {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 
@@ -54,6 +63,7 @@ footer {
 
 .footer__detail {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
     padding: 30px 0;
     border-top: 1px solid #b3b3b3;
@@ -78,7 +88,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     color: white;
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 .footer__brand img {

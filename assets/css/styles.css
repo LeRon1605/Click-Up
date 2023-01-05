@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     width: 100vw;
     overflow-x: hidden;
 }
 
 .container {
-    width: 100vw;
-    padding: 0 350px;
+    width: 70vw;
     margin: auto;
 }
 
@@ -37,14 +40,17 @@ main::before {
 }
 
 .landing {
-    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+#landing_video {
+    width: 100%;
+    margin-left: 100px;
+}
 
 .landing__left {
-    width: 40%;   
+    width: 60%;
     font-size: 20px;
     padding: 20px;
 }
@@ -114,7 +120,7 @@ main::before {
 }
 
 .landing__title {
-    font-size: 50px;
+    font-size: 3rem;
     font-family: Axifoma-800;
 }
 
@@ -137,6 +143,7 @@ main::before {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 15px 0;
 }
 
@@ -146,11 +153,10 @@ main::before {
 }
 
 .board {
-    width: 75vw;
+    width: 80vw;
     border-radius: 100px;
     margin: 50px auto;
     padding: 110px 130px;
-    overflow: hidden;
 }
 
 .board__row {
@@ -165,7 +171,7 @@ main::before {
 }
 
 .board__row_left {
-    width: 35%;
+    width: 38%;
 }
 
 .board__row_right {
@@ -201,7 +207,7 @@ main::before {
 }
 
 .board__content_heading {
-    font-size: 48px;
+    font-size: 3rem;
     font-family: Axifoma-800;
 }
 
@@ -288,6 +294,8 @@ main::before {
     display: flex;
     justify-content: center;
     padding: 15px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 
 .board__bottom button {
@@ -383,6 +391,10 @@ main::before {
     width: 40%;
 }
 
+.block5__content {
+    margin-left: 20px;
+}
+
 .block5 p {
     font-size: 22px;
     font-family: Axifoma-400;
@@ -424,11 +436,11 @@ main::before {
 }
 
 .block6 > img {
-    width: 50%;
+    width: 60%;
+    object-fit: contain;
 }
 
 .block6__btn {
-    /* padding: 10px 20px; */
     margin-right: 20px;
     margin-top: 10px;
     background-color: white;
@@ -449,4 +461,22 @@ main::before {
 
 .block6__btn_group {
     display: flex;
+}
+
+.board1 {
+    display: flex;
+}
+
+.board1 video, .board1 img {
+    width: 100%;
+}
+
+.board1__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.board1__nav {
+    width: 30%;
 }

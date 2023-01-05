@@ -1,0 +1,245 @@
+@media only screen and (max-width: 740px) {
+    .landing {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .landing__left {
+        width: 100%;
+    }
+
+    .brand__img {
+        width: 20%;
+        margin: 15px;
+    }
+
+    .board {
+        margin-top: 75px;
+    }
+
+    .board1 {
+        position: relative;
+        padding: 20px 10px !important;
+        border-radius: 30px !important;
+    }
+
+    .board1__content {
+        background-color: #FEF5F9;
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+    .board1__nav {
+        width: 60%;
+        position: absolute;
+        top: 0;
+        transform: translateY(-150%);
+    }
+
+    .board__content_heading {
+        font-size: 35px;
+    }
+
+    .board2 .board__col, .board2 .board__content_center {
+        align-items: flex-start;
+    }
+
+    .board2 {
+        padding: 30px 10px !important;
+        border-radius: 30px;
+    }
+
+    .board__bottom {
+        padding: 5px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    #board-nav-2 {
+        position: absolute;
+        top: 0;
+        transform: translateY(-150%);
+    }
+
+    .block5 {
+        flex-direction: column;
+    }
+
+    .block5__profile {
+        width: 100%;
+    }
+
+    .block6 > div {
+        width: 100%;
+    }
+
+    .block6 .board__content_description, .block6__btn_group {
+        width: 80%;
+    }
+    
+    .block6 > img {
+        width: 100%;
+    }
+
+    .block6 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .detail__group {
+        width: 50%;
+    }
+
+    .footer__brand {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__end {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__contact {
+        margin-top: 15px;
+    }
+
+    .footer__bar {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {    
+    .landing__left {
+        width: 50%;
+    }
+
+    .landing__right {
+        width: 50%;
+    }
+
+    .landing__title {
+        font-size: 39px;
+    }
+
+    .brand__img {
+        width: 10%;
+    }
+
+    .board1__nav {
+        width: 50%;
+    }
+
+    .board {
+        border-radius: 50px;
+    }
+
+    .board__bottom {
+        padding: 5px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .detail__group {
+        width: 33%;
+    }
+
+    .footer__bar {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .header__content {
+        width: 95vw;
+    }
+    
+    .container {
+        width: 95vw !important;
+    }
+
+    .board {
+        width: 95vw;
+        padding: 60px 80px
+    }
+
+    .board__content_heading {
+        font-size: 39px;
+    }
+
+    .board2__content {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {    
+    .header__large {
+        display: none;
+    }
+
+    .header__left_action {
+        display: none;
+    }
+
+    .header__right {
+        width: 80%;
+    }
+    
+    .board1__content {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .board1__content > div {
+        width: 100%;
+    }
+
+    .board1__content video, .board1__content img {
+        width: 100% !important;
+    }
+
+    .board2 .b-image {
+        display: none;
+    }
+
+    .board2__video {
+        width: 100% !important;
+    }
+    
+    .board2__content {
+        width: 100% !important;
+    }
+
+    #landing_video {
+        margin: 0;
+    }
+
+    .block5 {
+        align-items: flex-start;
+    }
+
+    .footer__hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero__detail_heading {
+        font-size: 44px;
+    }
+
+    .footer__hero .icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(50%);
+    }
+
+    .footer__hero button {
+        margin-top: 15px;
+    }
+}

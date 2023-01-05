@@ -3,10 +3,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 350px;
+    /* padding: 30px 350px; */
     transition: .1s;
     position: relative;
     z-index: 1000;
+}
+
+.header__content {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    margin: auto;
+    width: 70vw;
+    padding: 30px 0;
 }
 
 .header__scroll {
@@ -16,14 +28,14 @@ header {
 }
 
 .header__left {
-    width: 60%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
 
 .header__left_icon {
-    font-size: 30px;
-    margin-right: 10px;
+    font-size: 2rem;
+    margin-right: 5px;
 }
 
 .header__left_title {
@@ -96,7 +108,7 @@ header {
 }
 
 .icon__direction {
-    padding: 7px;
+    padding: 5px;
 }
 
 .header__action_title:hover .icon__direction {
@@ -108,8 +120,12 @@ header {
     flex-direction: column;
 }
 
+.header__large {
+    display: block;
+}
+
 .header__right {
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
 }
