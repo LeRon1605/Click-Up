@@ -279,6 +279,9 @@
                 <a class="header__right_item text-white header__large">Contact Sales</a>
                 <a class="header__right_item text-violet bg-white">Sign Up</a>
                 <a class="header__right_item bg-transparent text-white">Log in</a>
+                <a class="header__right_item header__small">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
             </div>
         </div>
     </header>
@@ -490,11 +493,10 @@
             <img src="./assets/images/features-top-bg-icons.png" style="width: 100%; z-index: 0; padding: 15px"
                 class="p-top b-image" />
         </div>
-        <div class="board bg-green board__row" style="position: relative;">
+        <div class="board bg-green board__row board3" style="position: relative;">
             <div class="board__row_left">
                 <div class="board__content fadeout d_none import">
-                    <img src="./assets/images/everhour.svg"
-                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" width="60" heigth="60" />
+                    <img src="./assets/images/everhour.svg" class="board3__icon" style="background-color: #00b884; padding: 10px;border-radius: 10px;" width="60" heigth="60" />
                     <br><strong class="text-green">THE PLATFORM</strong>
                     <h3 class="board__content_heading">Save time by automating your work.</h3>
                     <p class="board__content_description">Instantly import your work from other tools automatically.
@@ -502,7 +504,7 @@
                 </div>
                 <div class="board__content fadeout d_none download">
                     <img src="./assets/images/everhour.svg"
-                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" width="60" heigth="60" />
+                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" class="board3__icon" width="60" heigth="60" />
                     <br><strong class="text-green">THE PLATFORM</strong>
                     <h3 class="board__content_heading">Get more work done, wherever you are.</h3>
                     <p class="board__content_description">Access ClickUp on any device—mobile, desktop, voice
@@ -510,7 +512,7 @@
                 </div>
                 <div class="board__content fadeout d_none clickapps">
                     <img src="./assets/images/everhour.svg"
-                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" width="60" heigth="60" />
+                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" class="board3__icon" width="60" heigth="60" />
                     <br><strong class="text-green">THE PLATFORM</strong>
                     <h3 class="board__content_heading">Customize tasks for any need.</h3>
                     <p class="board__content_description">Customize ClickUp to tackle any project or task with 35+
@@ -519,7 +521,7 @@
                 </div>
                 <div class="board__content fadeout d_none integrations">
                     <img src="./assets/images/everhour.svg"
-                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" width="60" heigth="60" />
+                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" class="board3__icon" width="60" heigth="60" />
                     <br><strong class="text-green">THE PLATFORM</strong>
                     <h3 class="board__content_heading">Bring all of your tools into one place.</h3>
                     <p class="board__content_description">If you're not ready replace all your tools, ClickUp can
@@ -528,14 +530,14 @@
                 </div>
                 <div class="board__content fadeout d_none automations">
                     <img src="./assets/images/everhour.svg"
-                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" width="60" heigth="60" />
+                        style="background-color: #00b884; padding: 10px;border-radius: 10px;" class="board3__icon" width="60" heigth="60" />
                     <br><strong class="text-green">THE PLATFORM</strong>
                     <h3 class="board__content_heading">Save time by automating your work.</h3>
                     <p class="board__content_description">Eliminate the busywork and focus on what matters with hundreds
                         of Automations. Automatically assign tasks, post comments, update statuses, and sync with other
                         tools.</p>
                 </div>
-                <div class="board__nav board__row_left board__nav_wrap" id="board-nav-3">
+                <div class="board__nav board__row_left board__nav_wrap" id="board-nav-31">
                     <div class="board__nav_item" data-selector=".import">
                         <div class="nav__item">
                             <span class="nav__item_num">01</span>
@@ -574,19 +576,19 @@
                 </div>
             </div>
             <div class="board__row_right">
-                <video autoplay width="700px" id="video" loop style="border-radius: 15px" class="d_none fadeout import">
+                <video autoplay id="video" loop style="border-radius: 15px" class="d_none fadeout import">
                     <source src="./assets/video/import.mp4" type="video/mp4">
                 </video>
-                <video autoplay width="700px" id="video" loop style="border-radius: 15px"
+                <video autoplay id="video" loop style="border-radius: 15px"
                     class="d_none fadeout download">
                     <source src="./assets/video/download.mp4" type="video/mp4">
                 </video>
                 <div class="fadeout d_none integrations">
                     Bất ngờ chưa bà dà
                 </div>
-                <img src="./assets/images/clickapps.png" width="700px" style="border-radius: 15px"
+                <img src="./assets/images/clickapps.png" style="border-radius: 15px"
                     class="d_none fadeout clickapps" />
-                <img src="./assets/images/automations.png" width="700px" style="border-radius: 15px"
+                <img src="./assets/images/automations.png" style="border-radius: 15px"
                     class="d_none fadeout automations" />
             </div>
             <div class="board__bottom bg-green-dark">
@@ -596,15 +598,14 @@
                 </button>
             </div>
         </div>
-        <div class="board bg-blue board__col">
+        <div class="board bg-blue board__col board4">
             <div class="board__col" style="z-index: 1;">
-                <div class="board__content_center">
+                <div class="board__content_center board4__wrapper">
                     <strong class="text-blue">BUILT FOR EVERYONE</strong>
-                    <h3 class="board__content_heading">Save time by automating your work.</h3>
+                    <h3 class="board__content_heading">Built for teams from 1 to 1,000+.</h3>
                 </div>
-                <div class="board__nav board__nav_center" id="board-nav-4" style="width:90%">
-                    <a class="board__nav_item board__nav_itemBlue" data-selector="#projectManagement">Project
-                        Management</a>
+                <div class="board__nav board__nav_center" id="board-nav-4" style="width: 100%">
+                    <a class="board__nav_item board__nav_itemBlue" data-selector="#projectManagement">Project Management</a>
                     <a class="board__nav_item board__nav_itemBlue" data-selector="#engineering">Engineering</a>
                     <a class="board__nav_item board__nav_itemBlue" data-selector="#sales">Sales</a>
                     <a class="board__nav_item board__nav_itemBlue" data-selector="#marketing">Marketing</a>
@@ -615,31 +616,31 @@
                     <a class="board__nav_item board__nav_itemBlue" data-selector="#it">IT</a>
                 </div>
             </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout"
+            <div class="board__content board__content_row board__content_rowVerticalCenter  board4__wrapper d_none fadeout"
                 id="engineering" style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-forward-fast icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Develop better products, faster.</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Develop better products, faster.</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">From backlog to
                                 release, prioritize and plan your initiatives, epics, tasks, and docs—all on a shared
                                 platform with your key stakeholders. </p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visibility—Without the busy work</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visibility—Without the busy work</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Agile dashboards
                                 provide better insights, automatic progress tracking and updates, and reduce redundant
                                 meetings.</p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-brands fa-github icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Seamless DevOps integrations</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Seamless DevOps integrations</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Connect your
                                 existing development workflows with native integrations for GitHub, GitLab Bitbucket,
                                 Sentry, Slack, Figma, and more.</p>
@@ -647,33 +648,33 @@
                     </div>
                     <button class="bg-blue-dark text-white btn btn__large">Get Started</button>
                 </div>
-                <img src="./assets/images/Engineering.png" width="600" style="border-radius: 15px" />
+                <img src="./assets/images/Engineering.png" style="border-radius: 15px; " />
             </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout" id="sales"
+            <div class="board__content board__content_row board__content_rowVerticalCenter board4__wrapper d_none fadeout" id="sales"
                 style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-gear icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Automate sales processes</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Automate sales processes</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Keep deals moving
                                 through your pipeline with automations that assign leads, track follow-up, and trigger
                                 lead status updates for your team.</p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Manage accounts</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Manage accounts</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Track prospects,
                                 clients, and deals on a List, Board, or Table view that make it easy to visualize your
                                 accounts at a glance.</p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-clock icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Real-time reporting</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Real-time reporting</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">See how deals
                                 track over time, who is closing, and how your team is performing overall with
                                 customizable Dashboards.</p>
@@ -683,31 +684,31 @@
                 </div>
                 <img src="./assets/images/salesv2@2x.png" width="600" />
             </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout"
+            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout board4__wrapper"
                 id="projectManagement" style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-eye icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Campaign management</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Campaign management</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-people-group icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Collaborate</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Collaborate</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Work with your
                                 team in real-time with Chat, assign comments for action items, and never miss a beat
                                 with notifications that bring everything in one place.</p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-chart-gantt icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Track progress</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Track progress</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Add visual widgets
                                 for team members, tasks, sprints, time tracking, statuses, docs, embeds, and more.</p>
                         </div>
@@ -717,10 +718,10 @@
                 <img width="600" src="./assets/images/project-management.png" style="border-radius: 15px" />
                 </video>
             </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout"
+            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout board4__wrapper"
                 id="marketing" style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
                             <h2 style="margin: 0">Campaign management</h2>
@@ -729,7 +730,7 @@
                                 campaigns, events, and more</p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
                             <h2 style="margin: 0">Collaborate on marketing assets</h2>
@@ -738,7 +739,7 @@
                                 in one place.</p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
                             <h2 style="margin: 0">Content calendars</h2>
@@ -750,12 +751,84 @@
                     </div>
                     <button class="bg-blue-dark text-white btn btn__large">Get Started</button>
                 </div>
-                <img src="./assets/images/marketing.png" width="600" style="border-radius: 15px" />
+                <img src="./assets/images/marketing.png" style="border-radius: 15px" />
             </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout" id="product"
+            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout board4__wrapper" id="product"
                 style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
+                        <div>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
+                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
+                                from start to finish with highly customizable views that make project planning a breeze.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
+                        <div>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
+                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
+                                from start to finish with highly customizable views that make project planning a breeze.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
+                        <div>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
+                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
+                                from start to finish with highly customizable views that make project planning a breeze.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="bg-blue-dark text-white btn btn__large">Get Started</button>
+                </div>
+                <video autoplay loop style="border-radius: 15px">
+                    <source src="./assets/video/docs.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout board4__wrapper" id="design"
+                style="width: 100%">
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
+                        <div>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
+                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
+                                from start to finish with highly customizable views that make project planning a breeze.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
+                        <div>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
+                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
+                                from start to finish with highly customizable views that make project planning a breeze.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
+                        <div>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
+                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
+                                from start to finish with highly customizable views that make project planning a breeze.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="bg-blue-dark text-white btn btn__large">Get Started</button>
+                </div>
+                <video autoplay loop style="border-radius: 15px">
+                    <source src="./assets/video/docs.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout board4__wrapper" id="finance"
+                style="width: 100%">
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
                             <h2 style="margin: 0">Visualize & plan</h2>
@@ -764,191 +837,99 @@
                             </p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <button class="bg-red-dark text-white btn btn__large">Get Started</button>
+                    <button class="bg-blue-dark text-white btn btn__large">Get Started</button>
                 </div>
                 <video autoplay width="600px" id="video" loop style="border-radius: 15px">
                     <source src="./assets/video/docs.mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout" id="design"
+            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout board4__wrapper" id="hr"
                 style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
                         <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <button class="bg-red-dark text-white btn btn__large">Get Started</button>
+                    <button class="bg-blue-dark text-white btn btn__large">Get Started</button>
                 </div>
-                <video autoplay width="600px" id="video" loop style="border-radius: 15px">
+                <video autoplay loop style="border-radius: 15px">
                     <source src="./assets/video/docs.mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout" id="finance"
+            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout board4__wrapper" id="it"
                 style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
+                <div class="board__content_col board4__left">
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
+                    <div class="board__content board__content_row board4__content" style="width: 90%; margin: 0">
+                        <i class="fa-solid fa-triangle-exclamation icon_block4"></i>
                         <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
+                            <h2 class="board4__content_heading" style="margin: 0">Visualize & plan</h2>
                             <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
                                 from start to finish with highly customizable views that make project planning a breeze.
                             </p>
                         </div>
                     </div>
-                    <button class="bg-red-dark text-white btn btn__large">Get Started</button>
+                    <button class="bg-blue-dark text-white btn btn__large">Get Started</button>
                 </div>
-                <video autoplay width="600px" id="video" loop style="border-radius: 15px">
-                    <source src="./assets/video/docs.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout" id="hr"
-                style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
-                        <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
-                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
-                                from start to finish with highly customizable views that make project planning a breeze.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
-                        <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
-                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
-                                from start to finish with highly customizable views that make project planning a breeze.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
-                        <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
-                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
-                                from start to finish with highly customizable views that make project planning a breeze.
-                            </p>
-                        </div>
-                    </div>
-                    <button class="bg-red-dark text-white btn btn__large">Get Started</button>
-                </div>
-                <video autoplay width="600px" id="video" loop style="border-radius: 15px">
-                    <source src="./assets/video/docs.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="board__content board__content_row board__content_rowVerticalCenter d_none fadeout" id="it"
-                style="width: 100%">
-                <div class="board__content_col">
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
-                        <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
-                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
-                                from start to finish with highly customizable views that make project planning a breeze.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
-                        <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
-                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
-                                from start to finish with highly customizable views that make project planning a breeze.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="board__content board__content_row" style="width: 80%; margin: 0">
-                        <img src="./assets/images/everhour.svg"
-                            style="background-color: #00b884; padding: 10px;border-radius: 10px; margin-right: 30px"
-                            width="60" heigth="60" />
-                        <div>
-                            <h2 style="margin: 0">Visualize & plan</h2>
-                            <p class="board__content_description" style="margin: 0; margin-top: 10px">Manage any project
-                                from start to finish with highly customizable views that make project planning a breeze.
-                            </p>
-                        </div>
-                    </div>
-                    <button class="bg-red-dark text-white btn btn__large">Get Started</button>
-                </div>
-                <video autoplay width="600px" id="video" loop style="border-radius: 15px">
+                <video autoplay loop style="border-radius: 15px">
                     <source src="./assets/video/docs.mp4" type="video/mp4">
                 </video>
             </div>

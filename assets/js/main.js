@@ -3,7 +3,7 @@ window.addEventListener('scroll', e => {
     header.classList.toggle('header__scroll', window.scrollY > 0);
 });
 
-const createTab = (initElement, boardSelector, color) => {
+const createBoard = (initElement, boardSelector, color) => {
     let current = {
         element: null,
         contentBoard: null,
@@ -18,19 +18,25 @@ const createTab = (initElement, boardSelector, color) => {
         newState: function(newElement, newBoard) {
             this.toggle();
             this.element = newElement;
-            console.log(newBoard);
             this.contentBoard = newBoard;
             this.toggle();
         }
     };
+    let index = 0;
+    // Auto change
+    setInterval(() => {
+        board.children[index].click(); 
+        index = ++index % board.children.length;
+    }, 10000);
     const board = document.querySelector(boardSelector);
-    [...board.children].forEach(element => {
+    [...board.children].forEach((element, i) => {
         if (element.dataset.selector === initElement) {
             current.newState(element, document.querySelectorAll(element.dataset.selector));
         }
         element.addEventListener('click', e => {
             if (current.element != null && e.target.dataset.selector !== current.element.dataset.selector) {
                 current.newState(element, document.querySelectorAll(element.dataset.selector));
+                index = i;
             }
         });
     });
@@ -92,9 +98,7 @@ const makeSlider = (data, renderHtml) => {
 const slideData = [
     {
         image: './assets/images/jakub.png',
-        feedback: `ClickUp has become such an integral part of our work! By putting our work on ClickUp and organizing it
-                   into Sprints, we made it easy to work across departments without overloading ourselves with meetings
-                   and email threads.`,
+        feedback: `ClickUp has become such an integral part of our work! By putting our work on ClickUp and organizing it into Sprints, we made it easy to work across departments without overloading ourselves with meetings and email threads.`,
         info: {
             logo: './assets/images/stxnext.svg',
             company: 'Jakub, Inbound Marketing Team Lead, STX Next' 
@@ -102,8 +106,7 @@ const slideData = [
     },
     {
         image: './assets/images/gabriel-hoffman.png',
-        feedback: `After using many different methods to create and manage Scrum frameworks, I finally found the most
-                   flexible and powerful platform: ClickUp.`,
+        feedback: `After using many different methods to create and manage Scrum frameworks, I finally found the most flexible and powerful platform: ClickUp.`,
         info: {
             logo: './assets/images/zenpilot.png',
             company: 'Gabriel Hoffman, Solutions Engineer, Zen Pilot' 
@@ -112,7 +115,7 @@ const slideData = [
 ];
 
 makeSlider(slideData, renderProfile);
-createTab('#project_task', '#board-nav-1', 'Red');
-createTab('#docs', '#board-nav-2', 'Violet');
-createTab('.import', '#board-nav-3', '');
-createTab('#projectManagement', '#board-nav-4', 'Blue');
+createBoard('#project_task', '#board-nav-1', 'Red');
+createBoard('#docs', '#board-nav-2', 'Violet');
+createBoard('.import', '#board-nav-31', '');
+createBoard('#projectManagement', '#board-nav-4', 'Blue');
