@@ -519,3 +519,32 @@ main::before {
 .board3 > .board__row_left {
     padding-bottom: 30px;
 }
+
+.integrations__row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.integrations__block {
+    width: 23%;
+    margin-right: 15px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow:0 20.2148px 60.6443px rgb(16 30 54 / 6%)
+}
+
+.integrations__block:hover {
+    transform: translateY(-5%);
+    box-shadow:0 20.2148px 60.6443px rgb(16 30 54 / 6%)
+}
+
+.integrations__block img {
+    width: 50% !important;
+}

@@ -48,7 +48,7 @@
 }
 
 .bg-violet {
-    background-color: #ded9ff;
+    background-color: #f0eeff;
 }
 
 .bg-green {
@@ -150,10 +150,48 @@
     }
 }
 
+@keyframes fadeout-left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeout-bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .fadeout {
     animation: fadeout 1s;
 }
 
 .disabled {
     opacity: 0.5;
+}
+
+.text-yellow {
+    color: #FFC81E
 }

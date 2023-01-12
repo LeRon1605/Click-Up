@@ -191,6 +191,10 @@
     .board3 .board__nav_itemActive {
         border-bottom: 3px solid #00B884;
     }
+
+    .header__mobile_wrapper {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 740px) and (max-width: 1024px) {    
