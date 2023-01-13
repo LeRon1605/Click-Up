@@ -23,10 +23,11 @@
             <div class="header__left">
                 <img src="./assets/images/logo-clickup_color.svg" class="header__left_icon" style="width: 150px" />
                 <div class="header__left_action nav-dropdown">
-                    <a class="header__action_title">
+                    <a class="header__action_title header__action_titleL">
                         Product
                         <i class="fa-solid fa-caret-down icon__direction"></i>
                     </a>
+                    <div class="header__action_line"></div>
                     <div class="header__action_wrapper">
                         <div class="header__action_dropdown">
                             <div class="row container">
@@ -144,10 +145,11 @@
                     </div>
                 </div>
                 <div class="header__left_action nav-dropdown">
-                    <a class="header__action_title">
+                    <a class="header__action_title header__action_titleL">
                         Solutions
                         <i class="fa-solid fa-caret-down icon__direction"></i>
                     </a>
+                    <div class="header__action_line"></div>
                     <div class="header__action_wrapper">
                         <div class="header__action_dropdown">
                             <div class="row container">
@@ -270,10 +272,11 @@
                     </div>
                 </div>
                 <div class="header__left_action nav-dropdown">
-                    <a class="header__action_title">
+                    <a class="header__action_title header__action_titleL">
                         Learn
                         <i class="fa-solid fa-caret-down icon__direction"></i>
                     </a>
+                    <div class="header__action_line"></div>
                     <div class="header__action_wrapper">
                         <div class="header__action_dropdown">
                             <div class="row container" style="align-items: flex-start;">
@@ -429,7 +432,8 @@
                     <h3>Chat</h3>
                 </li>  
                 <button class="header__mobile_button bg-violet">
-                    See all feature
+                    See all feature                 
+                    <i class="fa-solid fa-arrow-right text-violet"></i>
                 </button>
             </ul>
             <div class="header__mobile_row header__mobile_dropdownToggle">
@@ -475,6 +479,7 @@
                 </li> 
                 <button class="header__mobile_button bg-violet">
                     See all feature
+                    <i class="fa-regular fa-arrow-right"></i>
                 </button>
             </ul>
             <div class="header__mobile_row header__mobile_dropdownToggle">
@@ -828,16 +833,27 @@
                 <div class="fadeout d_none integrations">
                     <div class="integrations__row">
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/github-logo.png"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/gitlab.png"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/everhour.svg"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/ron.jpg"/>
+                        </div>
+                    </div>
+                    <div class="integrations__row">
+                        <div class="integrations__block">
+                            <img src="./assets/images/crowd.png"/>
+                        </div>
+                        <div class="integrations__block">
+                            <img src="./assets/images/ms-teams.png"/>
+                        </div>
+                        <div class="integrations__block">
+                            <img src="./assets/images/clickup-api-beta.png"/>
                         </div>
                     </div>
                     <div class="integrations__row">
@@ -845,49 +861,38 @@
                             <img src="./assets/images/google-chrome-icon.svg"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/ron.jpg"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
-                        </div>
-                    </div>
-                    <div class="integrations__row">
-                        <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/ms-teams.png"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
-                        </div>
-                        <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
-                        </div>
-                        <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/crowd.png"/>
                         </div>
                     </div>
                     <div class="integrations__row">
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/gitlab.png"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/google-drive-icon.svg"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/everhour.svg"/>
                         </div>
                     </div>
                     <div class="integrations__row">
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/google-drive-icon.svg"/>
+                        </div>
+                        <div class="integrations__block">
+                            <img src="./assets/images/ms-teams.png"/>
                         </div>
                         <div class="integrations__block">
                             <img src="./assets/images/google-chrome-icon.svg"/>
                         </div>
                         <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
-                        </div>
-                        <div class="integrations__block">
-                            <img src="./assets/images/google-chrome-icon.svg"/>
+                            <img src="./assets/images/google-calendar-icon.svg"/>
                         </div>
                     </div>
                 </div>
@@ -1240,10 +1245,12 @@
             </div>
         </div>
         <div class="block5 bg-red board">
-            <img src="" class="block5__profile" id="profile-image" />
+            <div class="block5__profile">
+                <img src="" class="block5__profile_img" id="profile-image" />
+                <img src="./assets/images/play.svg" class="block5__profile_playBtn"/>
+            </div>
             <div class="block5__content">
-                <p id="feedback">
-                </p>
+                <p id="feedback"></p>
                 <div class="block5__content_detail">
                     <span class="block5__content_name" id="company"></span>
                     <div class="block5__content_action">

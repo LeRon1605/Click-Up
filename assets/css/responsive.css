@@ -5,6 +5,10 @@
         align-items: flex-start;
     }
 
+    main::before {
+        transform: translate(75%, -75%);
+    }
+
     .landing__left {
         width: 100%;
     }
@@ -40,7 +44,7 @@
         width: 60%;
         position: absolute;
         top: 0;
-        transform: translateY(-150%);
+        transform: translateY(-125%);
     }
 
     .board__content_heading {
@@ -65,7 +69,7 @@
     #board-nav-2 {
         position: absolute;
         top: 0;
-        transform: translateY(-150%);
+        transform: translateY(-125%);
     }
 
     .block5 {
@@ -125,7 +129,7 @@
         justify-content: flex-start;
         width: 100% !important;
         top: 0;
-        transform: translateY(-100%);
+        transform: translateY(-125%);
     }
 
     #board-nav-4 .board__nav_item {
@@ -170,10 +174,10 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translateY(-150%);
+        transform: translateY(-125%);
         padding: 0;
         width: 100%;
-        overflow-x: scroll;
+        overflow-x: auto;
     }
 
     #board-nav-31 .board__nav_item {
@@ -194,6 +198,10 @@
 
     .header__mobile_wrapper {
         width: 100%;
+    }
+
+    .board__nav_wrap {
+        flex-wrap: nowrap;
     }
 }
 
@@ -279,6 +287,10 @@
 
     .board3__icon {
         display: none;
+    }
+
+    main::before {
+        transform: translate(50%, -50%);
     }
 }
 

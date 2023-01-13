@@ -58,6 +58,8 @@ header {
     cursor: pointer;
     margin-left: 30px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     transition: .5s;
     height: 100%;
@@ -144,7 +146,7 @@ header {
     font-family: Axifoma-700;
 }
 
-.header__action_title:hover {
+.header__left_action:hover .header__action_title {
     color: #7b68ee;
 }
 
@@ -152,8 +154,12 @@ header {
     padding: 5px;
 }
 
-.header__action_title:hover .icon__direction {
+.header__left_action:hover .icon__direction {
     transform: rotate(-180deg);
+}
+
+.header__left_action:hover .header__action_line {
+    opacity: 1;
 }
 
 /* .header__left_action:hover .header__action_wrapper {
@@ -473,4 +479,17 @@ header {
 .badge__red {
     background-color: #FFF1F1;
     color: #FF7C7C
+}
+
+.header__action_line {
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+    background-color: #7b68ee;
+    margin-top: auto;
+    transition: all 0.5s ease;
+}
+
+.header__action_titleL {
+    margin-top: auto;
 }

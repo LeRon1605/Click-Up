@@ -1,7 +1,7 @@
 footer {
-    background-color: red;
     background-image: url('../images/bg-main-gradient.svg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: 50%;
     margin-top: 50px;
 }

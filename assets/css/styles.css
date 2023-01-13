@@ -192,6 +192,7 @@ main::before {
     cursor: pointer;
     border-bottom: 3px solid transparent;
     transition: .2s;
+    white-space: nowrap;
 }
 
 .board__nav_itemBlue:hover {
@@ -389,11 +390,25 @@ main::before {
 }
 
 .block5__profile {
-    width: 40%;
+    width: 100%;
+    position: relative;
+}
+
+.block5__profile_img {
+    width: 100%;
+}
+
+.block5__profile_playBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(25%, -50%);
+    border: 10px solid white;
+    border-radius: 100px;
 }
 
 .block5__content {
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .block5 p {
@@ -547,4 +562,5 @@ main::before {
 
 .integrations__block img {
     width: 50% !important;
+    object-fit: contain;
 }
